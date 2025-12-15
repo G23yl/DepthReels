@@ -1,0 +1,23 @@
+__pycache__/
+checkpoint/*
+checkpoint
+results/*
+result/*
+.DS_Store
+results/*
+*.png
+*.jpg
+*.mp4
+*.log*
+*.json
+scripts/transformer/*
+compile_cache
+scripts/.gradio/*
+*.pkl
+# *.csv
+*.jsonl
+out/*
+model/
+*.sh
+sample/*
+skyreels_v2/config/*

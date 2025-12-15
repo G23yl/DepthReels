@@ -1,0 +1,149 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            kq6dh8b992kw3j9xkdwhaw1x8wad7c9k:
+                args:
+                    - --model_path
+                    - /mnt/zhouxin-mnt/ckpt/SkyReels-V2-I2V-1.3B-540P
+                    - --config_path
+                    - skyreels_v2/config/train_depth_copy.yaml
+                codePath: train.py
+                codePathLocal: train.py
+                cpu_count: 128
+                cpu_count_logical: 80
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "107321753600"
+                        used: "75218550784"
+                email: 1265126315@qq.com
+                executable: /data/miniconda3/envs/longlive/bin/python3.10
+                git:
+                    commit: 3304081bf1aa927f57da6297e433bb0b56a5e6d8
+                gpu: NVIDIA A100-SXM4-80GB
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-ef0f75fa-4ce0-49b8-eacb-17753e2d2b23
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-54e75ef9-b219-6243-f23c-6508314d52eb
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-6ecc6ac4-dbe6-ce8b-ea39-6c0f0897f915
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-0f9d29c0-37bc-c407-c5a0-791b6e94fc27
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-6743f731-15a6-0ede-a882-b43dd04011cb
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-06164072-c577-13f9-8a6f-ad72ba0fc9dd
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-a39b4869-4abc-6421-2136-1e3b2d8d7e83
+                    - architecture: Ampere
+                      cudaCores: 6912
+                      memoryTotal: "85899345920"
+                      name: NVIDIA A100-SXM4-80GB
+                      uuid: GPU-fa11a021-9d5b-3ae1-fe3d-78a3521a2360
+                host: xzhou-workspace-25n2d-1859266-worker-0
+                memory:
+                    total: "838860800000"
+                os: Linux-5.4.0-153-generic-x86_64-with-glibc2.35
+                program: /data/DriveGen/SkyReels-V2/train.py
+                python: CPython 3.10.18
+                root: wandb_log
+                startedAt: "2025-12-03T14:36:13.393940Z"
+                writerId: kq6dh8b992kw3j9xkdwhaw1x8wad7c9k
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 83
+                - 105
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 71
+                - 83
+                - 105
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.10.18
+            "5": 0.22.2
+            "6": 4.57.3
+            "12": 0.22.2
+            "13": linux-x86_64
+beta1:
+    value: 0.9
+beta2:
+    value: 0.999
+data_root:
+    value: /mnt/zhouxin-mnt
+disable_wandb:
+    value: false
+fsdp_wrap_strategy:
+    value: size
+gradient_checkpointing:
+    value: true
+lr:
+    value: 2e-06
+lr_num_cycles:
+    value: 1
+lr_scheduler:
+    value: constant_with_warmup
+lr_warmup_steps:
+    value: 200
+max_grad_norm:
+    value: 1
+max_training_steps:
+    value: 200000
+mixed_precision:
+    value: true
+num_train_steps:
+    value: 1000
+save_dir:
+    value: /mnt/zhouxin-mnt/self_forcing/wan_ckpt
+save_steps:
+    value: 20
+sharding_strategy:
+    value: hybrid_full
+time_shift:
+    value: 5
+wandb_entity:
+    value: 1265126315-huazhong-university-of-science-and-technology
+wandb_key:
+    value: e6e8b0991bb2913baef65b8c03438cc5a1ddff83
+wandb_project:
+    value: wan
+wandb_save_dir:
+    value: wandb_log
+weight_decay:
+    value: 0.001
